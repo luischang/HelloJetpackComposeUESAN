@@ -42,7 +42,7 @@ fun HelloComposeForm(){
 
     Scaffold(
         topBar = {
-            TopAppBar(title = {Text("Hola ESAN")})
+            TopAppBar(title = {Text("ESAN App")})
         }
     ) { padding ->
         Column(
@@ -53,7 +53,7 @@ fun HelloComposeForm(){
             verticalArrangement = Arrangement.spacedBy(16.dp)
 
         ) {
-            Text("Bienvenido a Jetpack Compose")
+            Text("Bienvenido a curso de desarrollo de aplicaciones móviles")
             OutlinedTextField(
                 value = name,
                 onValueChange = {name = it},
